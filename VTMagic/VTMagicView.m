@@ -1170,7 +1170,7 @@ static VTPanRecognizerDirection direction = VTPanRecognizerDirectionUndefined;
 }
 
 - (void)setActuralSpacing:(CGFloat)acturalSpacing {
-    _acturalSpacing = _acturalSpacing;
+    _acturalSpacing = acturalSpacing;
     _menuBar.acturalSpacing = acturalSpacing;
 }
 
