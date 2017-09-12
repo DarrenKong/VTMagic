@@ -19,8 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  根据索引获取对应的控制器
  *
- *  @param contentView  self
- *  @param pageIndex    索引
+ *  @param contentView self
+ *  @param pageIndex   索引
  *
  *  @return 当前索引对应的控制器
  */
@@ -112,7 +112,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  获取索引对应的ViewController，当ViewController为nil时，根据autoCreate的值决定是否创建
  *
- *  @param pageIndex 索引
+ *  @param pageIndex      索引
  *  @param autoCreate 是否需要自动创建新的ViewController
  *
  *  @return UIViewController对象
